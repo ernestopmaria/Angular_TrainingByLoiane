@@ -25,7 +25,6 @@
             ],
             "styles": [
               "src/styles.css"
-              
             ],
             "scripts": []
           },
@@ -124,6 +123,6 @@
   },
   "defaultProject": "databinding",
   "cli": {
-    "analytics": "79d6b146-6bb6-4c6a-9ccb-c968ba4e7614"
+    "analytics": "4968e114-10f0-4b46-806a-9508e56efc49"
   }
 }

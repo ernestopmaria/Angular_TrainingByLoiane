@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-data-binding',
-  templateUrl: './data-binding.component.html',
-  styleUrls: ['./data-binding.component.css']
+  selector: 'app-databinding',
+  templateUrl: './databinding.component.html',
+  styleUrls: ['./databinding.component.css']
 })
-export class DataBindingComponent implements OnInit {
+export class DatabindingComponent implements OnInit {
 
   url:string="http://loiane.com";
   cursoAngular:boolean=true;
