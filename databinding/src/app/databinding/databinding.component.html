@@ -1,8 +1,33 @@
-<article>
+<article class="m-3">
     <h3>Event Binding</h3>
     <div>
-        <button class="btn btn-primary">
-            Submeter
+        <button (click)="Increment()"
+        class="btn btn-primary">
+            Me clique ! 
         </button>
+        <br>
+        
+        <br>
+        <input type="text" name="" value=""
+        (keyup)="onKeyUp($event)"
+        (keyup.enter)="salvarValor(campoInput.value)"
+        (blur)="salvarValor(campoInput.value)"
+        #campoInput
+        />
+
+        <br>
+
+        Valor atual: {{valorActual}}
+        <br>
+        valor Salvo: {{valorSalvo}}
+
+        <br>
+        <br>
+        <span (mouseover)="onMouseOverOut()"
+        (mouseout)="onMouseOverOut()"
+        [class.highlight]="isMouseOver"
+        >Passe o mouse sobre mim</span>
+      
+     
     </div>
 </article>
