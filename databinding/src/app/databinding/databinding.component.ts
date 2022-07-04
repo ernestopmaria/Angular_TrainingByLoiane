@@ -17,6 +17,8 @@ export class DatabindingComponent implements OnInit {
     idade :20
   }
 
+  nomeDoCurso:string='Angular';
+
 
   Increment(){
       return alert("Botão clicado!")

@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DatabindingComponent } from './databinding/databinding.component';
 import { MeuFormModule } from './meu-form/meu-form.module';
+import { InputpropertyComponent } from './inputproperty/inputproperty.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DatabindingComponent
+    DatabindingComponent,
+    InputpropertyComponent
   ],
   imports: [
     BrowserModule,
