@@ -10,6 +10,12 @@ export class DatabindingComponent implements OnInit {
   valorActual:string=""
   valorSalvo="";
   isMouseOver:boolean=false
+  nome: string= 'abc'
+
+  pessoa:any={
+    nome:'Ernesto',
+    idade :20
+  }
 
 
   Increment(){
