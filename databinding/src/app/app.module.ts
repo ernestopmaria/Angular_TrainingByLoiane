@@ -7,13 +7,15 @@ import { DatabindingComponent } from './databinding/databinding.component';
 import { MeuFormModule } from './meu-form/meu-form.module';
 import { InputpropertyComponent } from './inputproperty/inputproperty.component';
 import { OutputpropertyComponent } from './outputproperty/outputproperty.component';
+import { CicloComponent } from './ciclo/ciclo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DatabindingComponent,
     InputpropertyComponent,
-    OutputpropertyComponent
+    OutputpropertyComponent,
+    CicloComponent
   ],
   imports: [
     BrowserModule,

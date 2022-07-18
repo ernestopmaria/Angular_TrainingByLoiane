@@ -1,1 +1,14 @@
-<app-databinding></app-databinding>
+<!--<app-databinding></app-databinding>-->
+<app-ciclo [valor]="valor" *ngIf="!deletarCiclo" class="mt-10"></app-ciclo>
+<div>
+  <button type="button" (click)="mudarValor()" class="btn btn-primary mr-5">
+    Mudar Valor
+  </button>
+  <button type="button" (click)="destruirCiclo()" class="btn btn-danger mr-5">
+    Deletar
+  </button>
+
+  <button type="button" (click)="comecarCiclo()" class="btn btn-alert">
+    Começar
+  </button>
+</div>
